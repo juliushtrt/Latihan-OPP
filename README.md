@@ -14,27 +14,26 @@ Program ini merupakan program manajemen data mahasiswa yang dibangun menggunakan
 5. Tampilkan semua data mahasiswa
 
 # Deskripsi Kode
-data/mahasiswa.py
+###### data/mahasiswa.py
 File ini berisi definisi kelas Mahasiswa yang memiliki atribut nama, nim, dan nilai. Selain itu, terdapat beberapa fungsi untuk mengelola data mahasiswa:
-
 tambah_mahasiswa(data_mahasiswa, mahasiswa): Menambahkan objek mahasiswa ke dalam daftar.
 ubah_mahasiswa(data_mahasiswa, nim, nilai_baru): Mengubah nilai mahasiswa berdasarkan NIM.
 hapus_mahasiswa(data_mahasiswa, nim): Menghapus mahasiswa dari daftar berdasarkan NIM.
 cari_mahasiswa(data_mahasiswa, nim): Mencari mahasiswa berdasarkan NIM.
-tampilkan_semua_mahasiswa(data_mahasiswa): Menampilkan semua data mahasiswa.
-2. view/input_form.py
+tampilkan_semua_mahasiswa(data_mahasiswa): Menampilkan semua data mahasiswa
+
+###### view/input_form.py
 File ini berisi fungsi input_data_mahasiswa() yang digunakan untuk mengambil input dari pengguna untuk menambah data mahasiswa.
 
-3. view/mahasiswa.py
+###### view/mahasiswa.py
 File ini berisi fungsi tampilkan_data_mahasiswa(mahasiswa) yang digunakan untuk menampilkan informasi mahasiswa.
 
-4. main.py
+###### main.py
 File ini adalah file utama yang menjalankan aplikasi. Di dalamnya terdapat fungsi load_data() untuk memuat data dari file JSON dan save_data(data) untuk menyimpan data ke file JSON. Fungsi main() mengatur menu interaksi dengan pengguna.
 
-Penggunaan
 
 # Data Mahasiswa
-[WhatsApp Image 2024-12-10 at 10 19 34_619b2530](https://github.com/user-attachments/assets/9f466403-34c8-443b-9363-9d54f4dddb8e)
+![WhatsApp Image 2024-12-10 at 10 19 34_619b2530](https://github.com/user-attachments/assets/9f466403-34c8-443b-9363-9d54f4dddb8e)
 
 # File Data Mahasiswa
 ![WhatsApp Image 2024-12-10 at 10 20 54_ccb33ffe](https://github.com/user-attachments/assets/4ef5984f-736c-4619-83c9-453a87f36b34)
