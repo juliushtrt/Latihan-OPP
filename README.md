@@ -1,4 +1,8 @@
 # Latihan-OPP
+#### Julius Hutabarat
+#### 312410429
+#### TI.24.A3
+
 # Deskripsi
 Program ini merupakan program manajemen data mahasiswa yang dibangun menggunakan Python. Program ini memungkinkan pengguna untuk menambah, mengubah, menghapus, dan mencari data mahasiswa.
 
